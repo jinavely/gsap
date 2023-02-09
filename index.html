@@ -8,7 +8,11 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
     <title></title>
-    <script type="text/javascript" src="./js/libs/gsap.min.js" defer></script>
+    <script
+      type="text/javascript"
+      src="./js/libs/gsap.min.js"
+      data-ips
+    ></script>
 
     <style>
       * {
@@ -16,10 +20,19 @@
         padding: 0;
         box-sizing: border-box;
       }
+      #aa {
+        width: 50px;
+        height: 50px;
+        background-color: pink;
+      }
     </style>
   </head>
 
   <body>
-    sdfasdf
+    <div id="aa"></div>
+
+    <script>
+      tl.fromTo('#aa', { x: -100 }, { duration: 1, x: 100 });
+    </script>
   </body>
 </html>
