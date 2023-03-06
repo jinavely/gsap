@@ -1,0 +1,18 @@
+body {
+  height: 200vh;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 30vh 0 0 0;
+}
+.a {
+  background: red;
+}
+.b {
+  background: blue;
+}
+.c {
+  background: green;
+}
